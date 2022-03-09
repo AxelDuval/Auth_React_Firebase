@@ -4,11 +4,13 @@ import SignUpModal from "./components/SignUpModal";
 import Home from "./pages/Home";
 import Private from "./pages/Private/Private";
 import PrivateHome from "./pages/Private/PrivateHome/PrivateHome";
+import SignInModal from "./components/SignInModal"
 
 function App() {
   return (
     <>
       <SignUpModal />
+      <SignInModal/>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
